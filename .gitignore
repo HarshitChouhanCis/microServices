@@ -1,7 +1,14 @@
-node_modules
+/node_modules/
 # Keep environment variables out of version control
 .env
 
-mini-blog/api-gateway/node_modules
-mini-blog/auth-service/node_modules
-mini-blog/post-service/node_modules
+# Ignore all node_modules folders in the entire project
+**/node_modules/
+
+# Ignore all .env files anywhere in the project
+**/.env
+
+
+mini-blog/api-gateway/node_modules/
+mini-blog/auth-service/node_modules/
+mini-blog/post-service/node_modules/
