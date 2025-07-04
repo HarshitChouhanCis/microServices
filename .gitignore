@@ -1,0 +1,7 @@
+node_modules
+# Keep environment variables out of version control
+.env
+
+api-gateway/node_modules
+auth-service/node_modules
+post-service/node_modules
